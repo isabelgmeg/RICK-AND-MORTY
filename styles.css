@@ -1,0 +1,141 @@
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(106, 106, 106);
+  background-image: url("./ASSETS/831751.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  align-items: center;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+/* Utility classes */
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* HTML element classes */
+.container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  box-sizing: border-box;
+  justify-content: space-between;
+
+}
+#logo{
+    width:100%;
+}
+.card {
+  margin: 1rem;
+  border: 1px solid rgb(46, 46, 46);
+  border-top-width: 2px;
+  border-left-width: 2px;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  max-width: 300px;
+  width: 100%;
+  box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  background-color: rgb(228 240 239);
+  color: rgb(44, 39, 39);
+  align-items: center;
+
+  transition: transform 200ms ease-in-out;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.imageContainer {
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.image{
+    width: 100%;
+    height:auto;
+    object-fit: cover;
+}
+
+.species {
+}
+
+.gender {
+}
+
+.location {
+}
+
+.speciesGenderDiv , .nameStatusDiv{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div#imageLogo.imageLogo{
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+.name{
+    size:2 rem;
+}
+
+pageCharacter{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.plus{
+	border: 2px solid lightgrey;
+	background-color: rgb(0, 0, 0);
+	font-size: 16px;
+	height: 2.5em;
+	width: 2.5em;
+	border-radius: 999px;
+	position: relative;
+}
+	
